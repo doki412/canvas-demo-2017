@@ -1,0 +1,13 @@
+body{
+    margin: 0px;
+    position: relative;
+  }
+  #xxx{
+    background: #aaa;
+    display: block;
+  }
+  button{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
