@@ -6,8 +6,17 @@ body{
     background: #aaa;
     display: block;
   }
-  button{
-    position: absolute;
+  .actions{
+    position: fixed;
     left: 0;
     bottom: 0;
+  }
+  .actions > #pen{
+    display: none;
+  }
+  .actions.x > #pen{
+    display: inline-block;
+  }
+  .actions.x > #eraser{
+    display: none;
   }
