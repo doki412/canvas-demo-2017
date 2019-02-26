@@ -12,6 +12,9 @@ body{
 #xxx{
     background: white;
     display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 .actions{
     position: fixed;
@@ -76,5 +79,5 @@ body{
   border-radius: 16%;
 }
 .clear:active{
-  
+
 }
