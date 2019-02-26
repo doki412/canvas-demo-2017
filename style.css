@@ -55,3 +55,26 @@ body{
 #blue{
   background-color: blue;
 }
+.size{
+  position: fixed;
+  top: 50px;
+  right: 10px;
+}
+.size li{
+  margin: 20px;
+}
+.size .thin{
+  height: 0;
+  width: 40px;
+  border-top: 3px solid black;
+  border-radius: 16%;
+}
+.size .thick{
+  height: 0;
+  width: 40px;
+  border-top: 6px solid black;
+  border-radius: 16%;
+}
+.clear:active{
+  
+}
